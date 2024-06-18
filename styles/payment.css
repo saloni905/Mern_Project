@@ -1,0 +1,75 @@
+
+
+.log{
+ 
+ background:var(--secondary-color);
+}
+.log__form{
+  padding: 50px;
+  background: var(--secondary-color);
+  
+}
+
+
+
+.log.log__form .users{
+  width: 100px;
+  height: 100px;
+  position: relative;
+ 
+}
+.log__form .users{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 10%;
+ 
+  }
+
+.log__form .users img{
+  width: 300%;
+    object-fit: contain;
+    position: relative;
+  
+}
+
+
+
+.log.log__form h2{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.log__form {
+  width: 70%;
+ left: 15%;
+}
+
+.log.log__form h6{
+  color: #0f0f0f;
+  text-align: left;
+}
+
+
+.log.log__form input{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  color: var(--heading-color);
+}
+
+.log.log__form input :focus{
+  outline: none;
+}
+
+.auth__btn{
+  background: var(--heading-color) !important;
+ 
+  color: #fff !important;
+}
+
+
+
